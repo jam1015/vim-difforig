@@ -31,7 +31,5 @@ if !(exists(':DiffOrig') == 2)
     command -bar -nargs=0 DiffOrig call difforig#main()
 endif
 
-if !hasmapto('<Plug>(DiffOrig)')
-    nmap <silent> <unique> <Leader>o <Plug>(DiffOrig)
-endif
+
 nnoremap <unique> <Plug>(DiffOrig) :<C-U>call difforig#main()<CR>

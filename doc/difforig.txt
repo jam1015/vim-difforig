@@ -55,11 +55,6 @@ A. The New ":DiffOrig" Command
     better than the more minimal command defined in |:DiffOrig|.
 
                                                             *difforig-mappings*
-B. Default Mappings
-
-<Leader>o  or  <Plug>(DiffOrig)
-    This mapping simply invokes the new ":DiffOrig" command in the context
-    of the active buffer.
 
 q
     When viewing a diff tab, this key will quickly close the tab.  A message
